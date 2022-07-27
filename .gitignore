@@ -1,0 +1,8 @@
+logs
+public
+__pycache__/
+*.py[cod]
+private
+.DS_Store
+.vscode
+
