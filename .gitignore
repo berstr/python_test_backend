@@ -1,3 +1,4 @@
+venv
 logs
 public
 __pycache__/
@@ -5,4 +6,5 @@ __pycache__/
 private
 .DS_Store
 .vscode
+nragent.log
 

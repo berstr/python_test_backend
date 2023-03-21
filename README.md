@@ -1,5 +1,11 @@
 This service is to test and demo various scenarios with New Relic.
 
+## Python virtual environment
+
+1) create:           python3 -m venv venv
+2) activate:         source venv/bin/activate
+3) install modules:  pip install -r requirements.txt
+
 ## Env Variables
 
     export NEW_RELIC_LICENSE_KEY=XXXX
@@ -17,4 +23,4 @@ Optional:
 
 Manual start from command line:
 
-newrelic-admin run-program python3 python_test_backend.py
+newrelic-admin run-program python python_test_backend.py
